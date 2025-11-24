@@ -1,0 +1,158 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+ 
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #fce4e4;
+    color: #5a3d3d;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+header {
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+}
+
+header .logo {
+    font-size: 28px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #5a3d3d;
+    font-weight: 600;
+}
+
+.banner {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.banner h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.banner p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.hearts {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+/* Sobre */
+.about {
+    display: flex;
+    align-items: center;
+    padding: 40px 20px;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about img {
+    width: 100%;
+    max-width: 260px;
+    border-radius: 20px;
+}
+
+
+.banner img {
+    width: 100%;
+    max-width: 1440px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+/* Serviços: imagens pequenas, centradas e recortadas */
+.service-box img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.about-text h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+ .about-text p {
+    max-width: 300px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #d96969;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.services {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.service-box {
+    background: #ffe9e9;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    width: 220px;
+}
+
+.service-box span {
+    font-size: 40px;
+}
+
+.service-box p {
+    margin-top: 10px;
+}
+
+
+.recados {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.recados textarea {
+    width: 80%;
+    height: 120px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid #dab4b4;
+    outline: none;
+    background: #fff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: #7a4b4b;
+}
